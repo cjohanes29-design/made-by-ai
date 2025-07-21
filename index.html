@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MADE BY AI — Design Your Own T-Shirt</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f8f8f8;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+    main {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    form label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+      font-size: 1rem;
+    }
+    button {
+      margin-top: 2rem;
+      padding: 1rem;
+      width: 100%;
+      background: #000;
+      color: #fff;
+      border: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #333;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MADE BY AI</h1>
+    <p>Design your own t-shirt — powered by your imagination + AI</p>
+  </header>
+
+  <main>
+    <form>
+      <label for="theme">Cultural / Design Theme</label>
+      <input type="text" id="theme" placeholder="e.g. East Nusa Tenggara, Samurai, Cyberpunk" />
+
+      <label for="subject">Main Subject</label>
+      <input type="text" id="subject" placeholder="e.g. Traditional House, Dragon, Robot" />
+
+      <label for="elements">Supporting Elements</label>
+      <input type="text" id="elements" placeholder="e.g. Clouds, Fire, Tribal Patterns" />
+
+      <label for="colors">Preferred Colors</label>
+      <input type="text" id="colors" placeholder="e.g. Gold, Red, Indigo, Off-white" />
+
+      <label for="style">Style / Mood</label>
+      <select id="style">
+        <option>Bold</option>
+        <option>Minimalist</option>
+        <option>Spiritual</option>
+        <option>Streetwear</option>
+        <option>Ethnic-Futuristic</option>
+      </select>
+
+      <label for="shirtcolor">T-Shirt Base Color</label>
+      <select id="shirtcolor">
+        <option>Black</option>
+        <option>White</option>
+        <option>Beige</option>
+        <option>Dark Green</option>
+      </select>
+
+      <button type="submit">Generate My Design</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 MADE BY AI — All designs are uniquely yours.
+  </footer>
+</body>
+</html>
